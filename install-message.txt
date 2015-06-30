@@ -1,0 +1,13 @@
+Please type bellow.
+==========
+
+2
+/bin/sh
+
+kbdcontrol -l jp.106
+mdmfs -s 100m md1 /tmp
+dhclient -l /tmp/dc.em0 em0
+nc HOST_IP 8080 > /tmp/setup
+bsdinstall script /tmp/setup
+
+==========
