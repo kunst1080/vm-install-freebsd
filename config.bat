@@ -7,3 +7,5 @@ set VM_DISK=%VM_NAME%.vmdk
 set VM_DISK_SIZE=20G
 
 set ISO=.\FreeBSD-10.1-RELEASE-amd64-dvd1.iso
+
+set PKGSERVER=

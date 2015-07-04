@@ -6,6 +6,10 @@ DISTRIBUTIONS="base.txz kernel.txz"
 
 set -e
 
+### USING PROXY
+#PKGSERVER:sed -i".org" 's%http://pkg.FreeBSD.org/%___PKGSERVER___%' /etc/pkg/FreeBSD.conf
+
+
 ### Set timezone
 cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
