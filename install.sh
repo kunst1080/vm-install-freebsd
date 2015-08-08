@@ -1,4 +1,4 @@
-export ZFSBOOT_DISKS=da0
+PARTITIONS=da0
 export nonInteractive="YES"
 DISTRIBUTIONS="base.txz kernel.txz"
 
